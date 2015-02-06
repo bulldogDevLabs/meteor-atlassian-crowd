@@ -6,4 +6,4 @@ A Meteor package for atlassian crowd
 Uses the node package to facilitate access and api calls to atlassian-crowd package.
 https://www.npmjs.com/package/atlassian-crowd
 
-Access the module in js as {code}AtlassianCrowd{code}.
+Access the module in js as <b>AtlassianCrowd<b>.
