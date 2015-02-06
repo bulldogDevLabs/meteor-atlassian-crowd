@@ -1,0 +1,8 @@
+{
+	"name": "atlassian-crowd",
+	"description": "A node.js module for atlassian-crowd, extended to Meteor.",
+	"homepage": "https://github.com/elosoman/meteor-atlassian-crowd",
+	"author": "elosoman (https://github.com/elosoman/meteor-atlassian-crowd)",
+	"version": "0.0.1",
+	"git": "https://github.com/elosoman/meteor-atlassian-crowd"
+}
