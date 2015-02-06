@@ -5,7 +5,7 @@
 
 Package.describe({
 
-	name: 'meteor-atlassian-crowd',
+	name: 'elosoman:meteor-atlassian-crowd',
 	version: '0.0.1',
 	summary: 'A Meteor package for atlassian crowd nodejs module.',
 	git: 'https://github.com/elosoman/meteor-atlassian-crowd',
@@ -20,7 +20,10 @@ Package.describe({
 Package.onUse(function(api) {
 
 	api.versionsFrom('1.0.3.1');
-	api.addFiles('lib/meteor-atlassian-crowd.js');
+	api.add_files( ['lib/meteor-atlassian-crowd.js'], 'server' );
+	if (typeof api.export !== 'undefined') { 
+		api.export('AtlassianCrowd', 'server'); 
+	}
 
 });
 
