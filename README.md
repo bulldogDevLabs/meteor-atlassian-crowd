@@ -1,5 +1,5 @@
 # meteor-atlassian-crowd
-A Meteor package for atlassian crowd
+A Meteor package for the Atlassian Crowd nodejs module.
 
 ## Documentation
 
