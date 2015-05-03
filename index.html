@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Meteor-atlassian-crowd by bulldogDevLabs</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Meteor-atlassian-crowd</h1>
+        <p>A Meteor package for atlassian crowd</p>
+
+        <p class="view"><a href="https://github.com/bulldogDevLabs/meteor-atlassian-crowd">View the Project on GitHub <small>bulldogDevLabs/meteor-atlassian-crowd</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bulldogDevLabs/meteor-atlassian-crowd/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bulldogDevLabs/meteor-atlassian-crowd/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bulldogDevLabs/meteor-atlassian-crowd">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="meteor-atlassian-crowd" class="anchor" href="#meteor-atlassian-crowd" aria-hidden="true"><span class="octicon octicon-link"></span></a>meteor-atlassian-crowd</h1>
+
+<p>A Meteor package for the Atlassian Crowd nodejs module.</p>
+
+<h2>
+<a id="status" class="anchor" href="#status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Status</h2>
+
+<p>This is v0.0.1 of the meteor package. We are just now begining to test.</p>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup</h2>
+
+<ul>
+<li>Clone this repo</li>
+<li><code>cd /path/to/meteor/app<code></code></code></li>
+<li><code>mkdir packages<code></code></code></li>
+<li><code>ln -s /path/to/meteor-atlassian-crowd packages/meteor-atlassian-crowd<code></code></code></li>
+<li><code>meteor add elosoman:meteor-atlassian-crowd<code></code></code></li>
+<li>Create an instance of crowd with your config options.</li>
+<li><code>
+var atlassianCrowdConfig = { };
+crowd = atlassianCrowd( atlassianCrowdConfg );
+<code></code></code></li>
+</ul>
+
+<p>Future releases may be published through meteor atmospherejs ... stay tuned.</p>
+
+<h2>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Access the module in js as <code>AtlassianCrowd</code>.</p>
+
+<p>You can create an instance of <code>AtlassianCrowd</code> by passing it an options doc.</p>
+
+<pre>
+var options = {
+  "crowd": {
+    "base": "http://crowd.yourdomain.com:8059/crowd/", 
+  },
+  "application": {
+    "name": "username",
+    "password": "password"
+  }
+}
+
+crowd = new AtlassianCrowd(options);
+</pre>
+
+<h2>
+<a id="miscellany" class="anchor" href="#miscellany" aria-hidden="true"><span class="octicon octicon-link"></span></a>Miscellany</h2>
+
+<p>Further documenation about Atlassian Crow applications.
+<a href="https://confluence.atlassian.com/display/CROWD/Adding+an+Application#AddinganApplication-add">https://confluence.atlassian.com/display/CROWD/Adding+an+Application#AddinganApplication-add</a></p>
+
+<h2>
+<a id="kudos" class="anchor" href="#kudos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kudos</h2>
+
+<p>Uses the node package to facilitate access and api calls to atlassian-crowd package.
+<a href="https://www.npmjs.com/package/atlassian-crowd">https://www.npmjs.com/package/atlassian-crowd</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bulldogDevLabs">bulldogDevLabs</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
